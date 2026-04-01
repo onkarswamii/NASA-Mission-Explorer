@@ -149,3 +149,12 @@ Milestone 4 – Documentation and Deployment
 ## 👨‍💻 Author
 
 Project developed as part of a **Web Application Programming (WAP) Individual Project**.
+
+
+## Milestone 2 Completed
+
+- Integrated NASA APOD API using fetch
+- Displayed image/video, title, and explanation
+- Added date selection feature
+- Implemented loading indicator
+- Made UI responsive
