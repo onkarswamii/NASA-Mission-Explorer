@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+  <title>NASA Mission Explorer</title>
+</head>
+<body>
+
+  <h1>🚀 NASA Mission Explorer</h1>
+
+  <!-- Date Picker -->
+  <input type="date" id="datePicker">
+
+  <!-- Button -->
+<button onclick="toggleTheme()">Toggle Theme</button>
+  <button onclick="getData()">Get Space Image</button>
+  <p id="loading" style="display:none;">Loading...</p>
+  <div id="content"></div>
+  <div id="modal" style="display:none;">
+  <span id="close">&times;</span>
+  <img id="modalImg">
+</div>
+  <script src="script.js"></script>
+
+</body>
+</html>
